@@ -1,0 +1,268 @@
+
+Running configs.
+{'root_path': '/home/zhanght/DATA/', 'load_cache': False, 'load_pre_feat': False, 'search_hp': True, 'search_scale': [7, 3], 'search_step': [200, 20], 'init_beta': 1, 'init_alpha': 1.17, 'dataset': 'imagenet', 'shots': 16, 'backbone': 'RN50', 'lr': 0.001, 'augment_epoch': 10, 'train_epoch': 30, 'cache_dir': './caches/imagenet'} 
+
+Preparing ImageNet dataset.
+Getting textual features as CLIP's classifier.
+
+Constructing cache model by few-shot visual features and labels.
+Augment Epoch: 0 / 10
+Augment Epoch: 1 / 10
+Augment Epoch: 2 / 10
+Augment Epoch: 3 / 10
+Augment Epoch: 4 / 10
+Augment Epoch: 5 / 10
+Augment Epoch: 6 / 10
+Augment Epoch: 7 / 10
+Augment Epoch: 8 / 10
+Augment Epoch: 9 / 10
+
+Loading visual features and labels from test set.
+
+**** Zero-shot CLIP's test accuracy: 60.35. ****
+
+**** Tip-Adapter's test accuracy: 61.81. ****
+
+New best setting, beta: 0.10, alpha: 0.10; accuracy: 60.40
+New best setting, beta: 0.10, alpha: 0.24; accuracy: 60.45
+New best setting, beta: 0.10, alpha: 0.39; accuracy: 60.50
+New best setting, beta: 0.10, alpha: 0.53; accuracy: 60.56
+New best setting, beta: 0.10, alpha: 0.68; accuracy: 60.58
+New best setting, beta: 0.10, alpha: 0.82; accuracy: 60.62
+New best setting, beta: 0.10, alpha: 0.97; accuracy: 60.67
+New best setting, beta: 0.10, alpha: 1.12; accuracy: 60.74
+New best setting, beta: 0.10, alpha: 1.26; accuracy: 60.74
+New best setting, beta: 0.10, alpha: 1.41; accuracy: 60.78
+New best setting, beta: 0.10, alpha: 1.55; accuracy: 60.82
+New best setting, beta: 0.10, alpha: 1.70; accuracy: 60.86
+New best setting, beta: 0.10, alpha: 1.84; accuracy: 60.93
+New best setting, beta: 0.10, alpha: 1.98; accuracy: 60.95
+New best setting, beta: 0.10, alpha: 2.13; accuracy: 61.01
+New best setting, beta: 0.10, alpha: 2.42; accuracy: 61.05
+New best setting, beta: 0.10, alpha: 2.56; accuracy: 61.11
+New best setting, beta: 0.10, alpha: 2.71; accuracy: 61.14
+New best setting, beta: 0.13, alpha: 2.13; accuracy: 61.18
+New best setting, beta: 0.13, alpha: 2.27; accuracy: 61.20
+New best setting, beta: 0.13, alpha: 2.42; accuracy: 61.22
+New best setting, beta: 0.13, alpha: 2.71; accuracy: 61.26
+New best setting, beta: 0.17, alpha: 2.27; accuracy: 61.28
+New best setting, beta: 0.17, alpha: 2.42; accuracy: 61.34
+New best setting, beta: 0.17, alpha: 2.71; accuracy: 61.40
+New best setting, beta: 0.17, alpha: 2.85; accuracy: 61.45
+New best setting, beta: 0.20, alpha: 2.56; accuracy: 61.48
+New best setting, beta: 0.20, alpha: 2.71; accuracy: 61.52
+New best setting, beta: 0.20, alpha: 2.85; accuracy: 61.55
+New best setting, beta: 0.24, alpha: 2.42; accuracy: 61.55
+New best setting, beta: 0.24, alpha: 2.56; accuracy: 61.59
+New best setting, beta: 0.24, alpha: 2.71; accuracy: 61.62
+New best setting, beta: 0.24, alpha: 2.85; accuracy: 61.66
+New best setting, beta: 0.27, alpha: 2.56; accuracy: 61.68
+New best setting, beta: 0.27, alpha: 2.71; accuracy: 61.70
+New best setting, beta: 0.27, alpha: 2.85; accuracy: 61.71
+New best setting, beta: 0.31, alpha: 2.42; accuracy: 61.73
+New best setting, beta: 0.31, alpha: 2.56; accuracy: 61.74
+New best setting, beta: 0.31, alpha: 2.71; accuracy: 61.75
+New best setting, beta: 0.31, alpha: 2.85; accuracy: 61.78
+New best setting, beta: 0.34, alpha: 2.71; accuracy: 61.82
+New best setting, beta: 0.41, alpha: 2.56; accuracy: 61.83
+New best setting, beta: 0.51, alpha: 1.98; accuracy: 61.84
+New best setting, beta: 0.69, alpha: 1.70; accuracy: 61.84
+New best setting, beta: 0.72, alpha: 1.55; accuracy: 61.84
+New best setting, beta: 0.82, alpha: 1.55; accuracy: 61.85
+New best setting, beta: 1.20, alpha: 1.12; accuracy: 61.86
+New best setting, beta: 1.31, alpha: 1.12; accuracy: 61.86
+New best setting, beta: 1.72, alpha: 0.97; accuracy: 61.87
+New best setting, beta: 1.76, alpha: 0.97; accuracy: 61.89
+New best setting, beta: 3.14, alpha: 0.97; accuracy: 61.90
+New best setting, beta: 3.17, alpha: 0.97; accuracy: 61.91
+New best setting, beta: 3.34, alpha: 0.97; accuracy: 61.91
+New best setting, beta: 3.38, alpha: 0.97; accuracy: 61.92
+New best setting, beta: 3.48, alpha: 0.97; accuracy: 61.94
+New best setting, beta: 3.58, alpha: 0.97; accuracy: 61.95
+New best setting, beta: 3.69, alpha: 0.97; accuracy: 61.95
+New best setting, beta: 3.79, alpha: 0.97; accuracy: 61.97
+New best setting, beta: 4.14, alpha: 0.97; accuracy: 61.97
+New best setting, beta: 4.38, alpha: 0.97; accuracy: 61.98
+New best setting, beta: 4.41, alpha: 0.97; accuracy: 61.98
+New best setting, beta: 4.58, alpha: 0.97; accuracy: 61.98
+New best setting, beta: 4.69, alpha: 0.97; accuracy: 61.99
+New best setting, beta: 4.79, alpha: 0.97; accuracy: 62.00
+New best setting, beta: 4.83, alpha: 0.97; accuracy: 62.01
+New best setting, beta: 5.48, alpha: 1.12; accuracy: 62.02
+New best setting, beta: 5.55, alpha: 1.12; accuracy: 62.03
+
+After searching, the best accuarcy: 62.03.
+
+Train Epoch: 0 / 30
+LR: 0.000997, Acc: 0.6437 (10299.0/16000), Loss: 2.2989
+**** Tip-Adapter-F's test accuracy: 63.98. ****
+
+Train Epoch: 1 / 30
+LR: 0.000989, Acc: 0.6721 (10754.0/16000), Loss: 2.1655
+**** Tip-Adapter-F's test accuracy: 64.42. ****
+
+Train Epoch: 2 / 30
+LR: 0.000976, Acc: 0.6803 (10885.0/16000), Loss: 2.1059
+**** Tip-Adapter-F's test accuracy: 64.73. ****
+
+Train Epoch: 3 / 30
+LR: 0.000957, Acc: 0.7035 (11256.0/16000), Loss: 2.0328
+**** Tip-Adapter-F's test accuracy: 64.93. ****
+
+Train Epoch: 4 / 30
+LR: 0.000933, Acc: 0.7090 (11344.0/16000), Loss: 1.9879
+**** Tip-Adapter-F's test accuracy: 65.10. ****
+
+Train Epoch: 5 / 30
+LR: 0.000905, Acc: 0.7231 (11570.0/16000), Loss: 1.9410
+**** Tip-Adapter-F's test accuracy: 65.33. ****
+
+Train Epoch: 6 / 30
+LR: 0.000872, Acc: 0.7339 (11742.0/16000), Loss: 1.9051
+**** Tip-Adapter-F's test accuracy: 65.33. ****
+
+Train Epoch: 7 / 30
+LR: 0.000835, Acc: 0.7408 (11852.0/16000), Loss: 1.8663
+**** Tip-Adapter-F's test accuracy: 65.35. ****
+
+Train Epoch: 8 / 30
+LR: 0.000794, Acc: 0.7483 (11973.0/16000), Loss: 1.8407
+**** Tip-Adapter-F's test accuracy: 65.55. ****
+
+Train Epoch: 9 / 30
+LR: 0.000750, Acc: 0.7567 (12107.0/16000), Loss: 1.8003
+**** Tip-Adapter-F's test accuracy: 65.69. ****
+
+Train Epoch: 10 / 30
+LR: 0.000703, Acc: 0.7626 (12201.0/16000), Loss: 1.7854
+**** Tip-Adapter-F's test accuracy: 65.70. ****
+
+Train Epoch: 11 / 30
+LR: 0.000655, Acc: 0.7704 (12327.0/16000), Loss: 1.7552
+**** Tip-Adapter-F's test accuracy: 65.78. ****
+
+Train Epoch: 12 / 30
+LR: 0.000604, Acc: 0.7756 (12409.0/16000), Loss: 1.7380
+**** Tip-Adapter-F's test accuracy: 65.74. ****
+
+Train Epoch: 13 / 30
+LR: 0.000552, Acc: 0.7820 (12512.0/16000), Loss: 1.7149
+**** Tip-Adapter-F's test accuracy: 65.74. ****
+
+Train Epoch: 14 / 30
+LR: 0.000500, Acc: 0.7883 (12612.0/16000), Loss: 1.6966
+**** Tip-Adapter-F's test accuracy: 65.83. ****
+
+Train Epoch: 15 / 30
+LR: 0.000448, Acc: 0.7870 (12592.0/16000), Loss: 1.6989
+**** Tip-Adapter-F's test accuracy: 65.80. ****
+
+Train Epoch: 16 / 30
+LR: 0.000396, Acc: 0.7920 (12672.0/16000), Loss: 1.6770
+**** Tip-Adapter-F's test accuracy: 65.82. ****
+
+Train Epoch: 17 / 30
+LR: 0.000345, Acc: 0.7972 (12755.0/16000), Loss: 1.6580
+**** Tip-Adapter-F's test accuracy: 65.85. ****
+
+Train Epoch: 18 / 30
+LR: 0.000297, Acc: 0.7981 (12770.0/16000), Loss: 1.6483
+**** Tip-Adapter-F's test accuracy: 65.96. ****
+
+Train Epoch: 19 / 30
+LR: 0.000250, Acc: 0.8041 (12866.0/16000), Loss: 1.6427
+**** Tip-Adapter-F's test accuracy: 65.89. ****
+
+Train Epoch: 20 / 30
+LR: 0.000206, Acc: 0.8047 (12875.0/16000), Loss: 1.6294
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+Train Epoch: 21 / 30
+LR: 0.000165, Acc: 0.8096 (12954.0/16000), Loss: 1.6208
+**** Tip-Adapter-F's test accuracy: 65.89. ****
+
+Train Epoch: 22 / 30
+LR: 0.000128, Acc: 0.8111 (12978.0/16000), Loss: 1.6127
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+Train Epoch: 23 / 30
+LR: 0.000095, Acc: 0.8113 (12980.0/16000), Loss: 1.6102
+**** Tip-Adapter-F's test accuracy: 65.93. ****
+
+Train Epoch: 24 / 30
+LR: 0.000067, Acc: 0.8117 (12987.0/16000), Loss: 1.6052
+**** Tip-Adapter-F's test accuracy: 65.92. ****
+
+Train Epoch: 25 / 30
+LR: 0.000043, Acc: 0.8151 (13041.0/16000), Loss: 1.6040
+**** Tip-Adapter-F's test accuracy: 65.90. ****
+
+Train Epoch: 26 / 30
+LR: 0.000024, Acc: 0.8143 (13029.0/16000), Loss: 1.6002
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+Train Epoch: 27 / 30
+LR: 0.000011, Acc: 0.8136 (13018.0/16000), Loss: 1.6068
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+Train Epoch: 28 / 30
+LR: 0.000003, Acc: 0.8164 (13063.0/16000), Loss: 1.5954
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+Train Epoch: 29 / 30
+LR: 0.000000, Acc: 0.8160 (13056.0/16000), Loss: 1.5982
+**** Tip-Adapter-F's test accuracy: 65.91. ****
+
+**** After fine-tuning, Tip-Adapter-F's best test accuracy: 65.96, at epoch: 18. ****
+
+New best setting, beta: 0.10, alpha: 0.10; accuracy: 60.50
+New best setting, beta: 0.10, alpha: 0.24; accuracy: 60.65
+New best setting, beta: 0.10, alpha: 0.39; accuracy: 60.89
+New best setting, beta: 0.10, alpha: 0.53; accuracy: 61.05
+New best setting, beta: 0.10, alpha: 0.68; accuracy: 61.24
+New best setting, beta: 0.10, alpha: 0.82; accuracy: 61.40
+New best setting, beta: 0.10, alpha: 0.97; accuracy: 61.59
+New best setting, beta: 0.10, alpha: 1.12; accuracy: 61.72
+New best setting, beta: 0.10, alpha: 1.26; accuracy: 61.86
+New best setting, beta: 0.10, alpha: 1.41; accuracy: 62.03
+New best setting, beta: 0.10, alpha: 1.55; accuracy: 62.16
+New best setting, beta: 0.10, alpha: 1.70; accuracy: 62.32
+New best setting, beta: 0.10, alpha: 1.84; accuracy: 62.44
+New best setting, beta: 0.10, alpha: 1.98; accuracy: 62.58
+New best setting, beta: 0.10, alpha: 2.13; accuracy: 62.74
+New best setting, beta: 0.10, alpha: 2.27; accuracy: 62.89
+New best setting, beta: 0.10, alpha: 2.42; accuracy: 63.06
+New best setting, beta: 0.10, alpha: 2.56; accuracy: 63.14
+New best setting, beta: 0.10, alpha: 2.71; accuracy: 63.26
+New best setting, beta: 0.10, alpha: 2.85; accuracy: 63.35
+New best setting, beta: 0.13, alpha: 2.27; accuracy: 63.47
+New best setting, beta: 0.13, alpha: 2.42; accuracy: 63.68
+New best setting, beta: 0.13, alpha: 2.56; accuracy: 63.81
+New best setting, beta: 0.13, alpha: 2.71; accuracy: 63.96
+New best setting, beta: 0.13, alpha: 2.85; accuracy: 64.11
+New best setting, beta: 0.17, alpha: 2.42; accuracy: 64.22
+New best setting, beta: 0.17, alpha: 2.56; accuracy: 64.36
+New best setting, beta: 0.17, alpha: 2.71; accuracy: 64.51
+New best setting, beta: 0.17, alpha: 2.85; accuracy: 64.65
+New best setting, beta: 0.20, alpha: 2.42; accuracy: 64.72
+New best setting, beta: 0.20, alpha: 2.56; accuracy: 64.82
+New best setting, beta: 0.20, alpha: 2.71; accuracy: 64.99
+New best setting, beta: 0.20, alpha: 2.85; accuracy: 65.07
+New best setting, beta: 0.24, alpha: 2.42; accuracy: 65.09
+New best setting, beta: 0.24, alpha: 2.56; accuracy: 65.22
+New best setting, beta: 0.24, alpha: 2.71; accuracy: 65.39
+New best setting, beta: 0.24, alpha: 2.85; accuracy: 65.51
+New best setting, beta: 0.27, alpha: 2.56; accuracy: 65.61
+New best setting, beta: 0.27, alpha: 2.71; accuracy: 65.66
+New best setting, beta: 0.27, alpha: 2.85; accuracy: 65.85
+New best setting, beta: 0.31, alpha: 2.71; accuracy: 65.94
+New best setting, beta: 0.31, alpha: 2.85; accuracy: 65.97
+New best setting, beta: 0.38, alpha: 2.42; accuracy: 65.98
+New best setting, beta: 0.41, alpha: 2.13; accuracy: 65.98
+New best setting, beta: 0.51, alpha: 1.84; accuracy: 65.99
+New best setting, beta: 0.58, alpha: 1.70; accuracy: 65.99
+New best setting, beta: 0.62, alpha: 1.55; accuracy: 66.02
+New best setting, beta: 1.20, alpha: 0.97; accuracy: 66.04
+
+After searching, the best accuarcy: 66.04.
+
